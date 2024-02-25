@@ -5,19 +5,19 @@ const mongoose = require("mongoose");
 const User = new mongoose.SchemaType({
   firstName: {
     type: String,
-    require: true,
+    required: true,
   },
   lastName: {
     type: String,
-    require: false,
+    required: false,
   },
   email: {
     type: String,
-    require: true,
+    required: true,
   },
   username: {
     type: String,
-    require: true,
+    required: true,
   },
   likedSongs: {
     type: String,
